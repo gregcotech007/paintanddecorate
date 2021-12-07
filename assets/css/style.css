@@ -184,7 +184,6 @@ footer p {
     padding: 5%;
     color: #3a3a3a;
     padding: 20px;
-    background-color: green; /* Added green bgc for testing purposes*/
     transition: transform .2s;
     margin: 0 auto;
 }
