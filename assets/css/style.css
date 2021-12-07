@@ -4,7 +4,8 @@
 * {
     margin: 0;
     padding: 0;
-    border: 0;
+    border: 0; 
+    /* box-sizing: border-box; */
 }
 
 body  {
@@ -184,6 +185,18 @@ aside#sidebar h3 {
 aside#sidebar .contact input, aside#sidebar .contact textarea {
     width: 90%;
     padding: 5px;
+}
+
+/* Services Style */
+
+article#service {
+    float: left;
+    width: 65%;
+}
+
+article#service p {
+    line-height: 20px;
+    margin: 15px;
 }
 
 /* Footer Style */
