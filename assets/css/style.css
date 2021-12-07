@@ -199,6 +199,12 @@ article#service p {
     margin: 15px;
 }
 
+/* Gallery Style */
+#gallery img {
+    width: 500px;
+    height: 450px;
+}
+
 /* Footer Style */
 footer {
     margin-top: 10px;
