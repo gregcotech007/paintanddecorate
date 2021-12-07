@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins&display=swap');
+
+/* Set all defaults to zero */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body  {
+    font: 15px/1.5 Open Sans, Helvitica, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Global Style */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.button_1 {
+    height: 38px;
+    background: #e8491d;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+}
+
+.button_1:hover {
+    background: #fff;
+    color: #e8491d;
+}
+
+.dark {
+    padding: 15px;
+    background: #35424a;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-top: 10px;
+    text-align: center;
+    font-family: Poppins, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+h3, div span {
+    margin-top: 10px;
+    font-family: Poppins, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/* Header Style */
+header {
+    background: #35424a;
+    color: #fff;
+    padding: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #banner {
+    float: left;
+}
+
+header #banner h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a {
+    color: #e8491d;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #ccc;
+    font-weight: bold;
+}
