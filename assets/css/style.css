@@ -169,11 +169,22 @@ article#about p {
     line-height: 20px;
     margin: 10px;
 }
-/*
-#page-title {
+
+/* Sidebar */
+aside#sidebar {
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+aside#sidebar h3 {
     text-align: center;
-    font-weight: bold;
-} */
+}
+
+aside#sidebar .contact input, aside#sidebar .contact textarea {
+    width: 90%;
+    padding: 5px;
+}
 
 /* Footer Style */
 footer {
