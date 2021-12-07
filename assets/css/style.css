@@ -138,6 +138,7 @@ header a:hover {
     width: 250px;
 }
 
+/* Testimonial Style */
 #test-review {
     border: 2px solid #ccc;
     background-color: #c8c8c8;
@@ -156,6 +157,23 @@ header a:hover {
     font-size: 20px;
     margin-right: 15px;
 }
+
+/*About Style */
+
+article#about {
+    float: left;
+    width: 65%;
+}
+
+article#about p {
+    line-height: 20px;
+    margin: 10px;
+}
+/*
+#page-title {
+    text-align: center;
+    font-weight: bold;
+} */
 
 /* Footer Style */
 footer {
