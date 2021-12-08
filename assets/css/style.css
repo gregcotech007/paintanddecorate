@@ -242,3 +242,39 @@ footer p {
     transform: scale(1.5);
 }
 
+/* Media queries */
+/* For large to medium screens sizes from 1200px wide and down 
+@media screen and (max-width: 1200px){
+    {
+
+    }
+    
+    {
+
+    }
+    
+    {
+    
+    }
+}
+*/
+/* For medium screens sizes from 950px wide and down 
+@media screen and (max-width: 950px){
+    {
+
+    }
+    {
+    
+    }
+
+    #gallery {
+        column-count: 3;
+    }
+}*/
+
+/* For small screens sizes from 800px wide and down 
+@media screen and (max-width: 800px) {
+    #gallery {
+        column-count: 2;
+    }
+}*/
