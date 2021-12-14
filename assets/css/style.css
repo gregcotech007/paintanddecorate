@@ -164,6 +164,22 @@ header .logo .highlight, header .menu .current a {
     top: 0;
 }
 
+/* Showcase Style */
+.showcase {
+    width: 100%;
+    height: 53vw;
+    background: url(../images/hero-image.jpg) no-repeat center center/cover;
+  }
+  .showcase h1 {
+    font-size: 4vw;
+    /* margin-top: 150px;
+    font-size: 45px;
+    margin-top: 10px; */
+  }
+  .showcase p {
+    font-size: 2vw;
+  }
+
 /* Header Style 
 header {
     background: #35424a;
