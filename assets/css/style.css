@@ -216,6 +216,37 @@ header .logo .highlight, header .menu .current a {
     margin-right: 15px;
 }
 
+/* Newsletter Style */
+.newsletter {
+    padding: 35px;
+    color: #fff;
+    background: #35424a;
+}
+.newsletter h1 {
+    float: left;
+    margin: -17.5px;
+}
+.newsletter form {
+    float: right;
+    margin: -17.5px;
+}
+.newsletter input[type="email"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+.newsletter-btn {
+  height: 38px;
+  background: #e8491d;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #fff;
+}
+.newsletter-btn:hover {
+  background: #fff;
+  color: #e8491d;
+}
 
 /* Header Style 
 header {
@@ -262,24 +293,7 @@ header a:hover {
     font-weight: bold;
 } */
 
-/* Hero Style */
-#hero {
-    min-height: 400px;
-    background: url(../images/hero-image.jpg) no-repeat 0 -400px;
-    text-align: center;
-}
-
-#hero h1 {
-    margin-top: 100px;
-    font-size: 55px;
-    margin-top: 10px;
-}
-
-#hero p {
-    font-size: 20px;
-}
-
-/* Newsletter Style */
+/* Newsletter Style 
 #newsletter {
     padding: 15px;
     color: #fff;
@@ -298,10 +312,10 @@ header a:hover {
 #newsletter input[type="email"] {
     padding: 4px;
     height: 25px;
-    width: 250px;
-}
+    width: 250px; /* 15.625em / 17.36vw */
+} */
 
-/* Testimonial Style */
+/* Testimonial Style 
 #test-review {
     border: 2px solid #ccc;
     background-color: #c8c8c8;
@@ -319,9 +333,9 @@ header a:hover {
 #test-review span {
     font-size: 20px;
     margin-right: 15px;
-}
+} */
 
-/*About Style */
+/*About Style 
 
 article#about {
     float: left;
@@ -331,9 +345,9 @@ article#about {
 article#about p {
     line-height: 20px;
     margin: 10px;
-}
+} */
 
-/* Sidebar */
+/* Sidebar 
 aside#sidebar {
     float: right;
     width: 30%;
@@ -347,9 +361,9 @@ aside#sidebar h3 {
 aside#sidebar .contact input, aside#sidebar .contact textarea {
     width: 90%;
     padding: 5px;
-}
+} */
 
-/* Services Style */
+/* Services Style 
 
 article#service {
     float: left;
@@ -359,15 +373,15 @@ article#service {
 article#service p {
     line-height: 20px;
     margin: 15px;
-}
+} */
 
-/* Gallery Style */
+/* Gallery Style 
 #gallery img {
     width: 500px;
     height: 450px;
-}
+} */
 
-/* Footer Style */
+/* Footer Style 
 footer {
     margin-top: 10px;
     padding: 10px;
@@ -396,13 +410,13 @@ footer p {
     padding: 20px;
     transition: transform .2s;
     margin: 0 auto;
-}
+} */
 
-.social-networks i:hover {
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3 - 8 */
-    transform: scale(1.5);
-}
+/* .social-networks i:hover { */
+    /* -ms-transform: scale(1.5);  IE 9 */
+    /* -webkit-transform: scale(1.5); /* Safari 3 - 8 */
+    /* transform: scale(1.5);
+} */
 
 /* Media queries */
 /* For large to medium screens sizes from 1200px wide and down 
