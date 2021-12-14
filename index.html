@@ -11,26 +11,25 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
     <link rel="manifest" href="assets/images/favicons/site.webmanifest">
-    <title>Paint & Decorate</title>
+    <title>Wayne's Paint & Decorate</title>
 </head>
 <body>
-    <header>
-        <!-- Header includes a div container for banner and navbar -->
+    <header class="header">
         <div class="container">
-            <div id="banner">
-                <a href="index.html"><h1><span class="highlight">Wayne's </span>Paint & Decorate</h1></a>
-            </div>
-            <!-- Navigation bar linked to each navbar item -->
-            <nav>
-                <ul>
-                    <li class="current"><a href="index.html" aria-label="Go to homepage">Home</a></li>
-                    <li><a href="about.html" aria-label="Go to about page">About</a></li>
-                    <li><a href="gallery.html" aria-label="Go to gallery page">Gallery</a></li>
-                    <li><a href="services.html" aria-label="Go to services page">Services</a></li>
-                </ul>
-            </nav>
+            <a href="index.html" class="logo"><h1><span class="highlight">Wayne's </span>Paint & Decorate Ltd</h1></a>
+            
+            <!-- Burger menu Navigation -->
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+            <ul class="menu">
+                <li class="current"><a href="index.html" aria-label="Go to Home page">Home</a></li>
+                <li><a href="#" aria-label="Go to About Us page">About</a></li>
+                <li><a href="#" aria-label="Go to Gallery page">Gallery</a></li>
+                <li><a href="#" aria-label="Go to Services page">Services</a></li>
+            </ul>
         </div>
     </header>
+    
     <!-- Section with hero-image and overlay text -->
     <section id="hero">
        <div class="container">
