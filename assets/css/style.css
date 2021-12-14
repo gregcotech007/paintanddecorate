@@ -248,6 +248,37 @@ header .logo .highlight, header .menu .current a {
   color: #e8491d;
 }
 
+/* Footer Style */
+footer {
+    padding: 10px;
+    margin-top: 10px;
+    color: #fff;
+    background-color: #e8491d;
+    text-align: center;
+  }
+  .social-networks{
+    text-align: center;
+  }
+  .social-networks li{
+    display: inline;
+  }
+  .social-networks i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+    padding: 10px;
+    /* background-color: green; */
+    transition: transform .2s;
+    margin: 0 auto;
+  } 
+  .social-networks i:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+    color: #fff;
+  }
+  
 /* Header Style 
 header {
     background: #35424a;
@@ -313,7 +344,7 @@ header a:hover {
     padding: 4px;
     height: 25px;
     width: 250px; /* 15.625em / 17.36vw */
-} */
+/*} */
 
 /* Testimonial Style 
 #test-review {
