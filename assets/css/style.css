@@ -20,20 +20,6 @@ body  {
     overflow: hidden;
 }
 
-.button_1 {
-    height: 38px;
-    background: #e8491d;
-    border: none;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: #fff;
-}
-
-.button_1:hover {
-    background: #fff;
-    color: #e8491d;
-}
-
 .dark {
     padding: 15px;
     background: #35424a;
@@ -191,6 +177,22 @@ header .logo .highlight, header .menu .current a {
 
   .showcase p {
     font-size: calc(20px+2vw);
+}
+
+/* Contact Form */
+
+.contact-btn {
+    height: 38px;
+    background: #e8491d;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+}
+
+.contact-btn:hover {
+    background: #fff;
+    color: #e8491d;
 }
 
 /* Testimonials */

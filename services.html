@@ -1,30 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="paint, painting, decorate, decorating, residential, commercial, landlord">
-    <meta name="author" content="Gregcotech WebDev">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Paint & Decorate</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="paint, painting, decorate, decorating, residential, commercial, landlord">
+        <meta name="author" content="Gregcotech WebDev">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+        <link rel="manifest" href="assets/images/favicons/site.webmanifest">
+        <title>Wayne's Paint & Decorate</title>
+    </head>
 <body>
-    <header>
-        <!-- Header includes a div container for banner and navbar -->
-        <div class="container">
-            <div id="banner">
-                <a href="index.html"><h1><span class="highlight">Wayne's </span>Paint & Decorate</h1></a>
-            </div>
-            <!-- Navigation bar linked to each navbar item -->
-            <nav>
-                <ul>
-                    <li><a href="index.html" aria-label="Go to homepage">Home</a></li>
-                    <li><a href="about.html" aria-label="Go to about page">About</a></li>
-                    <li><a href="gallery.html" aria-label="Go to gallery page">Gallery</a></li>
-                    <li class="current"><a href="services.html" aria-label="Go to services page">Services</a></li>
-                </ul>
-            </nav>
+    <header class="header">
+        <!-- <div class="container"> -->
+            <a href="index.html" class="logo"><h1><span class="highlight">Wayne's </span>Paint & Decorate</h1></a>
+            
+            <!-- Burger menu Navigation -->
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+            <ul class="menu">
+                <li><a href="index.html" aria-label="Go to Home page">Home</a></li>
+                <li><a href="about.html" aria-label="Go to About Us page">About</a></li>
+                <li><a href="gallery.html" aria-label="Go to Gallery page">Gallery</a></li>
+                <li class="current"><a href="services.html" aria-label="Go to Services page">Services</a></li>
+            </ul>
         </div>
     </header>
     <section>
