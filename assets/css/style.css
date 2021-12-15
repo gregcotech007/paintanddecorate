@@ -299,12 +299,17 @@ footer {
     .header .menu-icon {
       display: none;
     }
+
+    .header .logo {
+        padding: 28px 20px;
+    }
   }
 @media(max-width:43.75em) {
     .newsletter {
-    padding: 20vw;
+    height: 20vw;
     color: #fff;
     background: #35424A;
+    text-align: left;
     }
     .newsletter h1 {
         /* float: left; */
@@ -320,7 +325,7 @@ footer {
         padding: 4px;
         height: 25px;
         width: 250px;
-        margin: 10vw 0;
+        margin: 10vw 0 2vw 0;
     }
 }
 
