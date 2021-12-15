@@ -118,7 +118,7 @@ header .logo .highlight, header .menu .current a {
 .header .menu-icon {
     cursor: pointer;
     float: right;
-    padding: 10px 5px;
+    padding: 35px 0 10px;
     position: relative;
     user-select: none;
 }
@@ -130,6 +130,7 @@ header .logo .highlight, header .menu .current a {
     position: relative;
     transition: background .2s ease-out;
     width: 18px;
+    background-color: #fff;
 }
   
 .header .menu-icon .nav-icon:before, .header .menu-icon .nav-icon:after {
@@ -140,6 +141,7 @@ header .logo .highlight, header .menu .current a {
     position: absolute;
     transition: all .2s ease-out;
     width: 100%;
+    background-color: #fff;
 }
 
 .header .menu-icon .nav-icon:before {
@@ -181,14 +183,14 @@ header .logo .highlight, header .menu .current a {
 }
 
   .showcase h1 {
-    font-size: 4vw;
+    font-size: calc(20px+4vw);
     /* margin-top: 150px;
     font-size: 45px;
     margin-top: 10px; */
 }
 
   .showcase p {
-    font-size: 2vw;
+    font-size: calc(20px+2vw);
 }
 
 /* Testimonials */
@@ -304,7 +306,11 @@ footer {
         padding: 28px 20px;
     }
   }
+  /* 700 */
 @media(max-width:43.75em) {
+    .header .menu-icon {
+        position: relative;
+    }
     .newsletter {
     height: 20vw;
     color: #fff;
@@ -326,6 +332,13 @@ footer {
         height: 25px;
         width: 250px;
         margin: 10vw 0 2vw 0;
+    }
+}
+
+/* 400 */
+@media(max-width:400px) {
+.header .menu-icon {
+    padding: 0 10px 20px;
     }
 }
 
