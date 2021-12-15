@@ -15,7 +15,7 @@ body  {
 
 /* Global Style */
 .container {
-    width: 80%;
+    width: 90%;
     margin: auto;
     overflow: hidden;
 }
@@ -93,6 +93,7 @@ h3, div span {
     float: left;
     font-size: .75em;
     padding: 10px 20px;
+    text-align: left;
     text-decoration: none;
     color: #fff;
 }
@@ -117,7 +118,7 @@ header .logo .highlight, header .menu .current a {
 .header .menu-icon {
     cursor: pointer;
     float: right;
-    padding: 28px 20px;
+    padding: 10px 5px;
     position: relative;
     user-select: none;
 }
