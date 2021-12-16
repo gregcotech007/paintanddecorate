@@ -53,7 +53,7 @@ h3, div span {
   }
 
   .header ul {
-    margin: 0;
+    margin: 25px;
     padding: 0;
     list-style: none;
     overflow: hidden;
@@ -165,24 +165,39 @@ header .logo .highlight, header .menu .current a {
 .showcase {
     width: 100%;
     height: 53vw;
+    padding-top: 20px;
     background: url(../images/hero-image.jpg) no-repeat center center/cover;
+    /* background-size: cover; */
 }
 
-  .showcase h1 {
-    font-size: calc(20px+4vw);
+.showcase-btn {
+    width: 200px;
+    height: auto;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    /* letter-spacing: 4px; */
+    padding-bottom: 10px;
+    background-color: rgba(232, 73, 29, 0.5);
+    /* position: relative; */
+}
+
+.showcase-box h1 {
+    font-size: 16px;
+
+
     /* margin-top: 150px;
     font-size: 45px;
     margin-top: 10px; */
 }
 
-  .showcase p {
-    font-size: calc(20px+2vw);
+.showcase-box p {
+    font-size: 3vw;
 }
 
 /* Gallery Style */
 .gallery img {
-    width: 500px;
-    height: 450px;
+    width: 100%;
+    /* height: 50%; */
 }
 
 /* Contact Form */
@@ -292,32 +307,30 @@ footer {
     color: #fff;
 }
 
-/* 48em = 768px @ 16pt font */
-@media(min-width:48em) {
-    .header li {
-      float: left;
+/* For small screens sizes from 400px wide and down */
+@media screen and (max-width:400px) {
+.header .menu-icon {
+    padding: 0 10px 20px;
     }
-    .header li a {
-      padding: 10px 20px;
-    }
-    .header .menu {
-      clear: none;
-      float: right;
-      max-height: none;
-    }
-    .header .menu-icon {
-      display: none;
-    }
+}
 
-    .header .logo {
-        padding: 28px 20px;
-    }
-  }
-  /* 700 */
-@media(max-width:43.75em) {
+ /* 700px Media Query */
+ @media screen and (max-width:43.75em) {
     .header .menu-icon {
         position: relative;
     }
+
+    .showcase h1 {
+        font-size: calc(20px+4vw);
+        /* margin-top: 150px;
+        font-size: 45px;
+        margin-top: 10px; */
+    }
+    
+    .showcase p {
+        font-size: calc(20px+2vw);
+    }
+
     .newsletter {
     height: 20vw;
     color: #fff;
@@ -342,12 +355,42 @@ footer {
     }
 }
 
-/* 400 */
-@media(max-width:400px) {
-.header .menu-icon {
-    padding: 0 10px 20px;
+/* 48em = 768px @ 16pt font */
+@media(min-width:48em) {
+    .header li {
+      float: left;
+    } 
+    /* .header li a {
+      padding: 10px 20px;
+    } 
+    .header .menu {
+      clear: none;
+      float: right;
+      max-height: none;
+    }
+    .header .menu-icon {
+      display: none;
+    }
+
+    .header .logo {
+        padding: 28px 20px;
+    } */
+  }
+
+/* For small screens sizes from 50em (800px) wide and down */
+@media screen and (max-width: 50em) {
+    .gallery {
+        column-count: 2;
     }
 }
+
+/* For medium screens sizes from 60em (950px) wide and down */
+@media screen and (max-width: 950px) {
+    .gallery {
+        column-count: 3;
+    }
+}
+
 
 /* Header Style 
 header {
@@ -530,23 +573,3 @@ footer p {
     }
 }
 */
-/* For medium screens sizes from 950px wide and down 
-@media screen and (max-width: 950px){
-    {
-
-    }
-    {
-    
-    }
-
-    #gallery {
-        column-count: 3;
-    }
-}*/
-
-/* For small screens sizes from 800px wide and down 
-@media screen and (max-width: 800px) {
-    #gallery {
-        column-count: 2;
-    }
-}*/
