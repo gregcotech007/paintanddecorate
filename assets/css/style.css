@@ -183,8 +183,6 @@ header .logo .highlight, header .menu .current a {
 
 .showcase-box h1 {
     font-size: 16px;
-
-
     /* margin-top: 150px;
     font-size: 45px;
     margin-top: 10px; */
@@ -219,9 +217,9 @@ header .logo .highlight, header .menu .current a {
 .test-review {
     border: 2px solid #ccc;
     background-color: #c8c8c8;
-    border-radius: 5px;
+    /*border-radius: 5px;
     padding: 16px;
-    margin: 16px 0;
+    margin: 16px 10px; */
 }
   
 .test-review::after {
@@ -231,14 +229,14 @@ header .logo .highlight, header .menu .current a {
 }
   
 .test-review img {
-    float: left;
+    float: center;
     margin-right: 20px;
     border-radius: 50%;
 }
   
 .test-review span {
     font-size: 20px;
-    margin-right: 15px;
+    margin-right: 20px;
 }
 
 /* Newsletter Style */
@@ -308,14 +306,14 @@ footer {
 }
 
 /* For small screens sizes from 400px wide and down */
-@media screen and (max-width:400px) {
+@media screen and (min-width:400px) {
 .header .menu-icon {
-    padding: 0 10px 20px;
+    padding: 20px;
     }
 }
 
  /* 700px Media Query */
- @media screen and (max-width:43.75em) {
+ @media screen and (min-width:43.75em) {
     .header .menu-icon {
         position: relative;
     }
@@ -353,7 +351,28 @@ footer {
         width: 250px;
         margin: 10vw 0 2vw 0;
     }
+
+    /* Testimonials */
+.test-review {
+    height: 300px;
+    }
+  
+.test-review-left {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
 }
+.test-review-center {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+.test-review-right {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
 
 /* 48em = 768px @ 16pt font */
 @media(min-width:48em) {
@@ -378,14 +397,14 @@ footer {
   }
 
 /* For small screens sizes from 50em (800px) wide and down */
-@media screen and (max-width: 50em) {
+@media screen and (min-width: 50em) {
     .gallery {
         column-count: 2;
     }
 }
 
 /* For medium screens sizes from 60em (950px) wide and down */
-@media screen and (max-width: 950px) {
+@media screen and (min-width: 950px) {
     .gallery {
         column-count: 3;
     }
