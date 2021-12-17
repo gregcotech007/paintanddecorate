@@ -8,7 +8,7 @@
     /* box-sizing: border-box; */
 }
 
-body  {
+body {
     font: 15px/1.5 Open Sans, Helvitica, sans-serif;
     background-color: #f4f4f4;
 }
@@ -45,7 +45,7 @@ h3, div span {
 .header {
     background-color: #35424a;
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
-    /* position: fixed; */
+    position: fixed;
     width: 100%;
     z-index: 3;
     border-bottom: #e8491d 3px solid;
@@ -53,7 +53,7 @@ h3, div span {
   }
 
   .header ul {
-    margin: 25px;
+    margin: 0;
     padding: 0;
     list-style: none;
     overflow: hidden;
@@ -84,7 +84,7 @@ h3, div span {
     color: #fff;
 }
 
-  .header .logo span {
+.header .logo span {
     font-size: 1.5em;
 }
   
@@ -165,7 +165,7 @@ header .logo .highlight, header .menu .current a {
 .showcase {
     width: 100%;
     height: 53vw;
-    padding-top: 20px;
+    padding-top: 120px;
     background: url(../images/hero-image.jpg) no-repeat center center/cover;
     /* background-size: cover; */
 }
@@ -195,7 +195,6 @@ header .logo .highlight, header .menu .current a {
 /* Gallery Style */
 .gallery img {
     width: 100%;
-    /* height: 50%; */
 }
 
 /* Contact Form */
@@ -217,9 +216,9 @@ header .logo .highlight, header .menu .current a {
 .test-review {
     border: 2px solid #ccc;
     background-color: #c8c8c8;
-    /*border-radius: 5px;
+    border-radius: 5px;
     padding: 16px;
-    margin: 16px 10px; */
+    margin: 16px 10px;
 }
   
 .test-review::after {
@@ -237,6 +236,35 @@ header .logo .highlight, header .menu .current a {
 .test-review span {
     font-size: 20px;
     margin-right: 20px;
+}
+
+/* About Style */
+article.about {
+    padding-top: 120px;
+    float: left;
+    width: 65%;
+}
+
+article.about p {
+    line-height: 20px;
+    margin: 10px;
+}
+
+/* Sidebar */
+aside.sidebar {
+    padding-top: 120px;
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+aside.sidebar h3 {
+    text-align: center;
+}
+
+aside.sidebar .contact input, aside.sidebar .contact textarea {
+    width: 90%;
+    padding: 5px;
 }
 
 /* Newsletter Style */
@@ -271,6 +299,18 @@ header .logo .highlight, header .menu .current a {
   color: #e8491d;
 }
 
+/* Services Style */
+article.service {
+    float: left;
+    width: 65%;
+    padding-top: 120px;
+}
+
+article.service p {
+    line-height: 20px;
+    margin: 15px;
+}
+
 /* Footer Style */
 footer {
     padding: 10px;
@@ -294,7 +334,6 @@ footer {
     padding: 5%;
     color: #3a3a3a;
     padding: 10px;
-    /* background-color: green; */
     transition: transform .2s;
     margin: 0 auto;
 } 
@@ -305,106 +344,78 @@ footer {
     color: #fff;
 }
 
-/* For small screens sizes from 400px wide and down */
-@media screen and (min-width:400px) {
+/* For medium screens sizes from 48em = 768px @ 16pt font wide and up */
+@media screen and (min-width: 48em) {
 .header .menu-icon {
     padding: 20px;
+    position: relative;
     }
+
+.showcase h1 {
+    font-size: calc(20px+4vw);
+    /* margin-top: 150px;
+    font-size: 45px;
+    margin-top: 10px; */
+}
+    
+.showcase p {
+    font-size: calc(20px+2vw);
 }
 
- /* 700px Media Query */
- @media screen and (min-width:43.75em) {
-    .header .menu-icon {
-        position: relative;
-    }
-
-    .showcase h1 {
-        font-size: calc(20px+4vw);
-        /* margin-top: 150px;
-        font-size: 45px;
-        margin-top: 10px; */
-    }
-    
-    .showcase p {
-        font-size: calc(20px+2vw);
-    }
-
-    .newsletter {
+.newsletter {
     height: 20vw;
     color: #fff;
     background: #35424A;
     text-align: left;
-    }
-    .newsletter h1 {
-        /* float: left; */
-        margin: -17.5px;
-    }
+}
 
-    .newsletter form {
-        /* float: right; */
-        margin: -17.5px;
-    }
+.newsletter h1 {
+    float: left;
+    margin: -17.5px;
+}
 
-    .newsletter input[type="email"] {
-        padding: 4px;
-        height: 25px;
-        width: 250px;
-        margin: 10vw 0 2vw 0;
-    }
+.newsletter form {
+    float: right;
+    margin: -17.5px;
+}
 
-    /* Testimonials */
+.newsletter input[type="email"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+    margin: 10vw 0 2vw 0;
+}
+
+/* Testimonials */
 .test-review {
     height: 300px;
-    }
+}
   
 .test-review-left {
     padding-top: 30px;
     width: 33%;
     float: left;
 }
+
 .test-review-center {
     padding-top: 30px;
     width: 33%;
     float: left;
 }
+
 .test-review-right {
     padding-top: 30px;
     width: 33%;
-    float: right;
+    float: left;
 }
 
-
-/* 48em = 768px @ 16pt font */
-@media(min-width:48em) {
-    .header li {
-      float: left;
-    } 
-    /* .header li a {
-      padding: 10px 20px;
-    } 
-    .header .menu {
-      clear: none;
-      float: right;
-      max-height: none;
-    }
-    .header .menu-icon {
-      display: none;
-    }
-
-    .header .logo {
-        padding: 28px 20px;
-    } */
-  }
-
-/* For small screens sizes from 50em (800px) wide and down */
-@media screen and (min-width: 50em) {
-    .gallery {
+.gallery {
         column-count: 2;
     }
 }
 
-/* For medium screens sizes from 60em (950px) wide and down */
-@media screen and (min-width: 950px) {
+/* For screens sizes from 60em (950px) wide and up */
+@media screen and (min-width: 60em) {
     .gallery {
         column-count: 3;
     }
@@ -496,46 +507,6 @@ header a:hover {
 #test-review span {
     font-size: 20px;
     margin-right: 15px;
-} */
-
-/*About Style 
-
-article#about {
-    float: left;
-    width: 65%;
-}
-
-article#about p {
-    line-height: 20px;
-    margin: 10px;
-} */
-
-/* Sidebar 
-aside#sidebar {
-    float: right;
-    width: 30%;
-    margin-top: 10px;
-}
-
-aside#sidebar h3 {
-    text-align: center;
-}
-
-aside#sidebar .contact input, aside#sidebar .contact textarea {
-    width: 90%;
-    padding: 5px;
-} */
-
-/* Services Style 
-
-article#service {
-    float: left;
-    width: 65%;
-}
-
-article#service p {
-    line-height: 20px;
-    margin: 15px;
 } */
 
 
