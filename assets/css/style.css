@@ -18,6 +18,7 @@ body {
     width: 90%;
     margin: auto;
     overflow: hidden;
+    /* margin-top: -2rem; */
 }
 
 .dark {
@@ -163,10 +164,17 @@ header .logo .highlight, header .menu .current a {
 .showcase {
     width: 100%;
     height: 53vw;
-    padding-top: 120px;
+    padding-top: 60px;
     background: url(../images/hero-image.jpg) no-repeat center center/cover;
     /* background-size: cover; */
 }
+
+.showcase a {
+    text-decoration: none;
+}
+/* .showcase-contact {
+    border: 1px solid blue;
+} */
 
 .showcase-btn {
     width: 200px;
@@ -267,17 +275,17 @@ aside.sidebar .contact input, aside.sidebar .contact textarea {
 
 /* Newsletter Style */
 .newsletter {
-    padding: 35px;
+    padding: 65px;
     color: #fff;
     background: #35424a;
 }
 .newsletter h1 {
     float: left;
-    margin: -17.5px;
+    margin: -60px;
 }
 .newsletter form {
     float: right;
-    margin: -17.5px;
+    margin: -25px;
 }
 .newsletter input[type="email"] {
     padding: 4px;
@@ -369,7 +377,7 @@ footer {
 
 .newsletter h1 {
     float: left;
-    margin: -17.5px;
+    /* margin: -17.5px; */
 }
 
 .newsletter form {
