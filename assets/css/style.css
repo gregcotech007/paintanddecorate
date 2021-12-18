@@ -163,7 +163,7 @@ header .logo .highlight, header .menu .current a {
 /* Showcase Style */
 .showcase {
     width: 100%;
-    height: 53vw;
+    height: 70vw;
     padding-top: 60px;
     background: url(../images/hero-image.jpg) no-repeat center center/cover;
     /* background-size: cover; */
@@ -171,6 +171,7 @@ header .logo .highlight, header .menu .current a {
 
 .showcase a {
     text-decoration: none;
+    color: #fff;
 }
 /* .showcase-contact {
     border: 1px solid blue;
@@ -183,7 +184,7 @@ header .logo .highlight, header .menu .current a {
     box-sizing: border-box;
     /* letter-spacing: 4px; */
     padding-bottom: 10px;
-    background-color: rgba(232, 73, 29, 0.5);
+    background-color: rgba(53, 66, 74, 0.5);
     /* position: relative; */
 }
 
@@ -246,9 +247,11 @@ header .logo .highlight, header .menu .current a {
 
 /* About Style */
 article.about {
-    padding-top: 120px;
+    padding-top: 60px;
     float: left;
-    width: 65%;
+    width: 100%;
+    text-align: justify;
+    /* padding-left: 10px; */
 }
 
 article.about p {
@@ -258,9 +261,9 @@ article.about p {
 
 /* Sidebar */
 aside.sidebar {
-    padding-top: 120px;
-    float: right;
-    width: 30%;
+    padding-top: 10px;
+    float: left;
+    width: 100%;
     margin-top: 10px;
 }
 
@@ -282,6 +285,7 @@ aside.sidebar .contact input, aside.sidebar .contact textarea {
 .newsletter h1 {
     float: left;
     margin: -60px;
+    padding-left: 10px;
 }
 .newsletter form {
     float: right;
@@ -298,6 +302,7 @@ aside.sidebar .contact input, aside.sidebar .contact textarea {
   border: none;
   padding-left: 20px;
   padding-right: 20px;
+  margin-top: 5px;
   color: #fff;
 }
 .newsletter-btn:hover {
@@ -308,8 +313,13 @@ aside.sidebar .contact input, aside.sidebar .contact textarea {
 /* Services Style */
 article.service {
     float: left;
-    /* width: 65%; */
-    padding-top: 120px;
+    width: 100%;
+    text-align: justify;
+    padding-top: 60px;
+}
+
+article.service h3 {
+    padding-left: 15px;
 }
 
 article.service p {
@@ -369,20 +379,21 @@ footer {
 }
 
 .newsletter {
-    height: 20vw;
+    height: 10vw;
     color: #fff;
     background: #35424A;
-    text-align: left;
+    padding: 0;
 }
 
 .newsletter h1 {
     float: left;
-    /* margin: -17.5px; */
+    padding: 20px;
+    margin: 0;
 }
 
 .newsletter form {
     float: right;
-    margin: -17.5px;
+    margin: 0;
 }
 
 .newsletter input[type="email"] {
@@ -394,24 +405,13 @@ footer {
 
 /* Testimonials */
 .test-review {
-    height: 250px;
+    height: 300px;
+    width: 24.75%;
+    display: inline-block;
 }
   
-.test-review-left {
+.test-review-left, .test-review-center, .test-review-right {
     padding-top: 10px;
-    width: 33%;
-    float: left;
-}
-
-.test-review-center {
-    padding-top: 10px;
-    width: 33%;
-    float: left;
-}
-
-.test-review-right {
-    padding-top: 10px;
-    width: 33%;
     float: left;
 }
 
@@ -425,6 +425,9 @@ footer {
     .gallery {
         column-count: 3;
     }
+
+    .test-review {
+        width: 26.75%;
 }
 
 
