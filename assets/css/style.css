@@ -405,9 +405,13 @@ footer {
 
 /* Testimonials */
 .test-review {
-    height: 300px;
+    height: 45vw;
     width: 24.75%;
     display: inline-block;
+}
+
+.testimonial-img {
+    padding-left: 5vw;
 }
   
 .test-review-left, .test-review-center, .test-review-right {
@@ -427,7 +431,24 @@ footer {
     }
 
     .test-review {
+        height: 30vw;
         width: 26.75%;
+    }
+
+    h1 {
+        font-size: 3vw;
+    }
+  
+    h2 {
+        font-size: 2vw;
+    }
+  
+    p {
+        font-size: 1.75vw;
+    }
+
+    .showcase h1 {
+        padding-top: 7.5vw;
 }
 
 
