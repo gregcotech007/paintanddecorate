@@ -162,7 +162,7 @@ header .logo .highlight, header .menu .current a {
     width: 100%;
     height: 70vw;
     padding-top: 60px;
-    background: url(../images/hero-image.jpg) no-repeat center center/cover;
+    background: url(../images/showcase-img.webp) no-repeat center center/cover;
 }
 
 .showcase a {
@@ -491,20 +491,20 @@ article.service p {
     margin-left: 0;
     }
 
-.newsletter h1 {     
-        margin: 20px;
+    .newsletter h1 {     
+        margin: 10px;
     }
 
 .newsletter input[type="email"] {
-    padding: 8px;
-    height: 50px;
-    width: 450px;
-    font-size: 20px;
+    padding: 2px;
+    height: 30px;
+    width: 350px;
+    font-size: 1.5em;
 }
     
 .newsletter-btn {
     margin-top: 40px;
-    height: 58px;
-    font-size: 25px;
+    height: 40px;
+    font-size: 1.2em;
     }
 }
