@@ -173,7 +173,7 @@ header .logo .highlight, header .menu .current a {
 .showcase-btn {
     width: 200px;
     height: auto;
-    border: 1px solid #fff;
+    border: 1px solid #e8491d;
     box-sizing: border-box;
     padding-bottom: 10px;
     background-color: rgba(53, 66, 74, 0.5);
@@ -349,19 +349,36 @@ footer {
 
 /* For medium screens sizes from 48em = 768px @ 16pt font wide and up */
 @media screen and (min-width: 48em) {
-.header .menu-icon {
-    padding: 20px;
-    position: relative;
+.header li {
+    float: left;
     }
 
-.showcase h1 {
-    font-size: calc(20px+4vw);
-}
-    
-.showcase p {
-    font-size: calc(20px+2vw);
-}
+.header li a {
+    padding: 30px;
+    }
 
+.header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+    }
+
+.header .menu-icon {
+    display: none;
+    }
+
+h2 {
+    margin-top: 40px
+    }
+
+.showcase {
+    padding-top: 100px;
+    }
+
+.showcase-btn {
+    padding-bottom: 10px;
+    }
+    
 .newsletter {
     height: 10vw;
     color: #fff;
@@ -398,10 +415,14 @@ footer {
     display: inline-block;
 }
 
-.testimonial-img {
-    padding-left: 5vw;
+ .test-review img {
+    margin-left: 0;
 }
-  
+
+.testimonial-img {
+    margin-left: 4vw;
+}
+
 .test-review-left, .test-review-center, .test-review-right {
     padding-top: 10px;
     float: left;
@@ -423,40 +444,45 @@ aside.sidebar {
 
 /* For screens sizes from 60em (950px) wide and up */
 @media screen and (min-width: 60em) {
-    .gallery {
-        column-count: 3;
+    .header li a {
+        padding: 40px;
+        font-size: 20px;
+      }
+
+.gallery {
+    column-count: 3;
     }
 
-    .test-review {
-        height: 30vw;
-        width: 26.75%;
+.test-review {
+    height: 30vw;
+    width: 26.75%;
     }
 
-    h1 {
-        font-size: 3vw;
+h1 {
+    font-size: 2.3vw;
     }
   
-    h2 {
-        font-size: 2vw;
+h2 {
+    font-size: 2vw;
     }
   
-    p {
-        font-size: 1.75vw;
+p {
+    font-size: 1.75vw;
     }
 
-    .showcase h1 {
-        padding-top: 7.5vw;
+.showcase h1 {
+    padding-top: 1.5vw;
     }
 
-    .testimonial-img {
-        padding-left: 8.5vw;
+.testimonial-img {
+    padding-left: 8.5vw;
     }
 
-    aside.sidebar {
-        margin: 0 28vw;
-        }
+aside.sidebar {
+    margin: 0 28vw;
+    }
 
-    /* About Style */
+/* About Style */
 article.about {
     padding-top: 120px;
     float: left;
@@ -478,13 +504,16 @@ aside.sidebar {
     margin: 120px 0 0;
     }
 
+article.service {
+    padding-top: 90px;
+    }
+
 article.service h3 {
-        font-size: 2em;
-        line-height: 30px;
+    font-size: 2em;
     }
 
 article.service p {
-    line-height: 30px;
+    line-height: 27.5px;
     }
 
 .test-review img {
@@ -506,5 +535,9 @@ article.service p {
     margin-top: 40px;
     height: 40px;
     font-size: 1.2em;
+    }
+
+.social-networks i {
+    font-size: 300%;
     }
 }
