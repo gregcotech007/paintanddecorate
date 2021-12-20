@@ -10,13 +10,23 @@ It is designed for responsiveness across multiple devices, starting with mobile 
 
 ## Table of Contents
 
+* [User Stories](#user-story)
+* [Design](#design)
+* [Features](#features)
+* [Technology Used](#technology-used)
+* [User Stories](#user-story)
+* [User Stories](#user-story)
+
+
 ## User Experience (UX)
 
 ### User Story
 
-- First Time Visitors
+#### First Time Visitors
 As a First Time Visitor, I wanted to provide an easy to view website that provides information in relation to the services provided by the company, "Paint & Decorate".
+
 As a First Time Visitor, I wanted to provide a "Get in Touch" button that links to the About Page, where the user has the option to complete the form. There is a drop-down menu to choose between "Get a Quote" or "General Enquiry".
+
 As a First Time Visitor, I wanted to make the website responsive so that the user can move through the website, regardless if they are on mobile, tablet or desktop device.
 
 - Realtine User Experience
@@ -51,16 +61,17 @@ There was no future feature suggestions at this time.
 - Interactive elements.
 
 ### Technologies Used
-#### - Languages
 
-![HTML5](assets/images/html5-min.png){:height="50%" width="50%"}
+#### - Languages
 
 <img src="assets/images/html5-min.png" alt="html5" width="25%"/>
 
 <img src="assets/images/css3-min.png" alt="css3" width="25%"/>
 
 
-- Programs Used
+## Programs Used
+__Programs Used__
+
 - - [GitHub](https://github.com/):
 - - - GitHub was used to backup instances of GitPod Workspaces at intervals.
 
