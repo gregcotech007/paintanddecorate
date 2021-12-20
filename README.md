@@ -52,6 +52,9 @@ There was no future feature suggestions at this time.
 
 ### Technologies Used
 #### - Languages
+
+![HTML5](assets/images/html5-min.png){:height="50%" width="50%"}
+
 <img src="assets/images/html5-min.png" alt="html5" width="25%"/>
 
 <img src="assets/images/css3-min.png" alt="css3" width="25%"/>

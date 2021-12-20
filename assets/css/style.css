@@ -171,6 +171,7 @@ header .menu .current a {
 .showcase a {
   text-decoration: none;
   color: #fff;
+  padding-left: 40px;
 }
 
 .showcase-btn {
