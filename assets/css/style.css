@@ -303,20 +303,25 @@ aside.sidebar .contact textarea {
 }
 
 /* Services Style */
-article.service {
+container.column {
   float: left;
   width: 100%;
   text-align: justify;
   padding-top: 60px;
 }
 
-article.service h3 {
+container.column h3 {
   padding-left: 15px;
 }
 
-article.service p {
+container.column p {
   line-height: 20px;
   margin: 15px;
+}
+
+.column {
+  float: none;
+  width: auto;
 }
 
 /* Footer Style */
@@ -447,6 +452,33 @@ footer {
   aside.sidebar {
     margin: 0 22vw;
   }
+
+/* Services change to 3 column wide */
+.container.column {
+  padding-top: 60px;
+}
+
+.container.column:after { /*clear float*/
+    content: ""; 
+    display: table;
+    clear: both;
+  }
+  
+  .column {
+    margin-top: 100px;
+    padding: 10px;
+    float: left;
+    width: 33.3333%;
+    border: 1px solid;
+    box-sizing: border-box;
+  }
+  
+  
+  /* @media (max-width: 768px) { /*breakpoint*/
+  /* .column {
+      float: none;
+      width: auto;
+    } */
 }
 
 /* For screens sizes from 60em (950px) wide and up */
