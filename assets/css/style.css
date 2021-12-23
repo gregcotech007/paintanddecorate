@@ -130,6 +130,7 @@ header .menu .current a {
   text-align: center;
   font-family: Poppins, Helvitica, sans-serif;
   font-weight: bold;
+  font-size: 1em;
 }
 .showcase a {
   text-decoration: none;
@@ -147,42 +148,45 @@ header .menu .current a {
 .showcase h2 {
   font-size: 1.5em;
 }
-.showcase p {
-  font-size: 1em;
-}
+
 /* Testimonials */
 .testimonials {
   border-radius: 5px;
   padding: 16px;
   margin: 16px 10px;
-}
-.testimonials::after {
-  /*clear float */
-  content: "";
-  display: table;
-  clear: both;
-}
-.testimonials {
   border: 2px solid #e8491d;
   background-color: #c8c8c8;
   padding: 10px;
   float: none;
   width: auto;
 }
+
+.testimonials::after {
+  /*clear float */
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .client {
   text-align: center;
 }
+
 .testimonials img {
   margin: 0;
   border-radius: 50%;
+  width: 90px;
 }
+
 .testimonials p {
   font-size: 1.5em;
 }
+
 .testimonials span {
   font-size: 30px;
   margin-right: 20px;
 }
+
 .services {
   border: 2px solid #e8491d;
   background-color: #c8c8c8;
@@ -190,21 +194,25 @@ header .menu .current a {
   float: none;
   width: auto;
 }
+
 .services span {
   font-size: 30px;
   margin-right: 20px;
 }
+
 /* Newsletter */
 .newsletter {
   padding: 25px;
   color: #fff;
   background: #35424a;
 }
+
 .newsletter input[type="email"] {
   padding: 4px;
   height: 25px;
   width: 230px;
 }
+
 .newsletter-btn {
   height: 38px;
   background: #e8491d;
@@ -214,13 +222,16 @@ header .menu .current a {
   margin-top: 5px;
   color: #fff;
 }
+
 .newsletter-btn:hover {
   background: #fff;
   color: #e8491d;
 }
+
 .form-nl {
   text-align: center;
 }
+
 /* About Page */
 article.about {
   padding-top: 20px;
@@ -228,10 +239,12 @@ article.about {
   text-align: justify;
   display: block;
 }
+
 .form {
   text-align: center;
   line-height: 220%;
 }
+
 .form-dark {
   padding: 15px;
   background: #35424a;
@@ -239,6 +252,7 @@ article.about {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
 .contact-btn {
   height: 38px;
   background: #e8491d;
@@ -247,37 +261,45 @@ article.about {
   padding-right: 20px;
   color: #fff;
 }
+
 .contact-btn:hover {
   background: #fff;
   color: #e8491d;
 }
+
 aside.sidebar {
   float: left;
   width: 100%;
 }
+
 aside.sidebar h3 {
   text-align: center;
 }
+
 aside.sidebar .contact input,
 aside.sidebar .contact textarea {
   width: 90%;
   padding: 5px;
 }
+
 /* Gallery Page */
 .gallery img {
   width: 100%;
 }
+
 .services {
   border-radius: 5px;
   padding: 16px;
   margin: 16px 10px;
 }
+
 .services::after {
   /*clear float */
   content: "";
   display: table;
   clear: both;
 }
+
 .services {
   border: 2px solid #e8491d;
   background-color: #c8c8c8;
@@ -285,6 +307,7 @@ aside.sidebar .contact textarea {
   float: none;
   width: auto;
 }
+
 /* Footer with links to Social Networks */
 footer {
   padding: 10px;
@@ -293,12 +316,19 @@ footer {
   background-color: #e8491d;
   text-align: center;
 }
+
 .social {
   text-align: center;
 }
+
+.social a {
+  text-decoration: none;
+}
+
 .social li {
   display: inline;
 }
+
 .social i {
   font-size: 180%;
   padding: 5%;
@@ -307,9 +337,100 @@ footer {
   transition: transform 0.2%;
   margin: 0 auto;
 }
+
 .social i:hover {
   -ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3 - 8 */
   transform: scale(1.5);
   color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  /* breakpoint */
+  .header {
+    height: 60px;
+  }
+  .header li {
+    float: left;
+  }
+  .header li a {
+    padding: 21px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+  .showcase-btn {
+    width: 190px;
+    height: 30px;
+    font-size: 1.5em;
+  }
+  .showcase h2 {
+    font-size: 3em;
+  }
+  .showcase p {
+    font-size: 2em;
+  }
+  .testimonials {
+    float: left;
+    display: inline;
+    width: 30.73%;
+    height: 60vh;
+    border: 1px solid;
+    box-sizing: border-box;
+    border: 2px solid #e8491d;
+    background-color: #c8c8c8;
+    margin: 1.3vw;
+  }
+
+  .testimonials img {
+    width: calc(90px + 3vw);
+  }
+
+  .testimonials p {
+    font-size: 2vw;
+  }
+
+  .testimonials span {
+    font-size: 3vw;
+  }
+
+  article.about {
+    padding-bottom: 150px;
+  }
+  
+  article.about h2 {
+    font-size: 2em;
+  }
+
+  .gallery {
+    column-count: 2;
+  }
+
+  .services {
+    float: left;
+    display: inline;
+    width: 30%;
+    height: 80vh;
+    border: 1px solid;
+    box-sizing: border-box;
+    border: 2px solid #e8491d;
+    background-color: #c8c8c8;
+    margin: 1.6%;
+  }
+
+  .services p {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  /* breakpoint */
+  .gallery {
+    column-count: 3;
+  }
 }
