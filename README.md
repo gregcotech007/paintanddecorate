@@ -6,7 +6,7 @@ The above website was created for the purposes of a painting and decorating comp
 
 It is designed for responsiveness across multiple devices, starting with mobile first, then expanding up to tablet, laptop and also desktop views, making it easy for potential customers and users to navigate the website.
 
-![Paint & Decorate](assets/images/amir-min.png)
+![Paint & Decorate](assets/images/amir-min.webp)
 
 ## Table of Contents
 
@@ -16,7 +16,6 @@ It is designed for responsiveness across multiple devices, starting with mobile 
 * [Header](#header)
 * [Showcase](#showcase)
 * [Testimonials](#testimonials)
-* [Newsletter](#newsletter)
 * [Footer](#footer)
 * [Languages](#languages)
 * [Programs](#programs)
@@ -24,6 +23,7 @@ It is designed for responsiveness across multiple devices, starting with mobile 
 * [Deployment](#deployment)
 * [Cloning](#cloning)
 * [Credits](#credits)
+* [Conclusion](#conclusion)
 
 
 # User Experience (UX)
@@ -33,7 +33,7 @@ It is designed for responsiveness across multiple devices, starting with mobile 
 
 ### First Time Visitors
 
-As a First Time Visitor, I wanted to provide an easy to view website that provides information in relation to the services provided for the company, "Paint & Decorate".
+As a First Time Visitor, I wanted to provide an easy to view and navigate a website that provides information in relation to the services provided by the company, "Paint & Decorate".
 
 As a First Time Visitor, I wanted to provide a 'Get in Touch' button that allows the user easy access to get in touch with the company. The link points to the About Page, where the user has the option to complete the form. There is a drop-down menu to choose between 'Get a Quote' or 'General Enquiry'.
 
@@ -42,11 +42,11 @@ As a First Time Visitor, I wanted to make the website responsive so that the use
 
 ### Realtime User Experience
 
-The user accessed the website from their mobile Android device. The found it easy to link through the pages and the content was correctly displayed to the screen.
+The user accessed the website from their mobile Android device. They found it easy to navigate through the pages and the content was correctly linked and displayed to the screen.
 
 The user clicked on each of the links that corresponded to the hamburger menu navigation, which consisted of 4 pages: Home, About, Gallery & Services.
 
-The user found the colour scheme used was easy on the eye and the quality of the images on the gallery were of a high quality.
+The user found the colour scheme was easy on the eye and the quality of the images on the gallery were of a high quality.
 
 
 ### Realtime User Suggestions
@@ -62,8 +62,13 @@ Once the layouts were designed, it was easier to see how the site would be struc
 
 - Wireframes: [Balsamiq](https://balsamiq.com/)
 
-    - Mobile Device Wireframes.
-    - Desktop Device Wireframes.
+    - Mobile Device Wireframe.
+
+    ![Mobile Device Wireframe](assets/images/pd-mobile-wireframe.webp)
+    
+    - Tablet Device Wireframe.
+
+    ![Tablet Device Wireframe](assets/images/pd-tablet-wireframe.webp)
 
 - Colour Scheme
     - I chose to use colours #f4f4f4, #35424a, #fff, rgba(0, 0, 0, 0.1), #e8491d, #ccc, #c8c8c8 & #3a3a3a across the website. The colours worked well together and provided a good visual experience to the user.
@@ -105,7 +110,7 @@ Also, there is a 'Get in Touch' button which has a call to action and it links t
 
 ## Testimonials
 
-![Testimonials Section](assets/images/testimonials-min.webp)
+![Testimonials Section](assets/images/768tablet-testimonials-min.webp)
 
 The testimonial section is shown when viewed on a device with screen of 768px or higher. There are three testimonials shown inline which includes the customer image, name, location county along with their review.
 
@@ -114,9 +119,7 @@ Once the screen size is reduced to mobile view, then the testimonial reviews are
 
 ## Newsletter Section
 
-![Newsletter Section](assets/images/newsletter-min.webp)
-
-The newsletter section comprises of an input box that allows the user to enter email in order to subscribe to the newsletter. The 'Subcribe' button prevents the user from submitting the data unless there is a valid email address provided. The user will be prompted to add a valid email and if successful, the user will be provided with a newsletter signup thank you page.
+The newsletter section, shown in the image above, comprises of an input box that allows the user to enter email in order to subscribe to the newsletter. The 'Subcribe' button prevents the user from submitting the data unless there is a valid email address provided (required). The user will be prompted to add a valid email and if successful, the user will be provided with a newsletter signup thank you page.
 
 
 ## About Us
@@ -129,8 +132,6 @@ The About Us section provides information about the company, how long they are i
 
 ## Contact Form
 
-![Contact Form](assets/images/contact-form-min.webp)
-
 The contact form provides an opportunity for the user to engage with the company through an electronic contact method.
 The user has a drop-down form that allows them to choose between 'Get a Quote' or 'General Enquiry'.
 
@@ -139,7 +140,7 @@ The form is built with 'required' input options that prevents the user from subm
 
 ## Footer
 
-![Footer Section](assets/images/footer-min.webp)
+![Footer Section](assets/images/footer-social-fb-min.webp)
 
 The Footer is comprised of Social Network links of four providers. Once the user hovers over the individual link, the icon increases in size and the icon font changes to white, in order to highlight it as a hover selection. When the user clicks on the individual link, a new blank window opens for the user to view the website link, while maintaining the user's existing position on the current page.
 
@@ -294,5 +295,26 @@ To clone a copy of the code in the repository, the following steps are required:
     - The LMS tutorials were beneficial in giving me an insight into starting my first website coding project.
     - Also, I found inspiration from the 'Love Running' project which helped with ideas.
 
-- Code Institute: Mentor: Narender
+- Code Institute: Mentor: Narender @github/nar3nd3r
     - Thanks Narender for all the support and guidance throughout the project.
+
+
+# Conclusion
+
+I started out on this project journey a few weeks ago, not knowing what Gitpod or GitHub was. I had heard about HTML and CSS, but was not familiar with CSS or even the words div and float, to name a few.
+
+I enjoyed learning the Code Institute LMS and completing the challenges. The course is well-structured and getting the experience on the Coders Coffeehouse and Love Running, were great projects to get started with and exposed to.
+
+I have had a few issues along the way with my Gitpod Workspace. As a result, I had created more than 1 workspace/repo to work with and practice on. There were global issues on a couple occasions where I could not access my workspace, as it was down.
+
+As you will notice from my commits, I had started a new repo on another GitHub profile that I created, as I couldnt get onto my existing one. I worked tirelessly over 12 hours last night to compile a brand new workspace and repo. This has had it advantages from a learning point of view, writing and rewriting code, it was allowing me to understand it better and remove any unessessary code. Also, I have spent another long night tonight to complete it and sign it off for submission. 
+
+https://github.com/gregcodev/p1_paintanddecorate
+
+The link above is the link for my secondary GitHub account, which will acount for the commits on the new account. I tried to log back in this evening on the new account and it advised that I had my time was used up. Luckily I had a copy of my code and I started to import it back into my existing repo and recording new commits to replace the previous code.
+
+Overall, I have found the modules on HTML and CSS as challenging at times, I didn't lose faith with it and I kept working on it. I understand that there are many options to simplify CSS such as Flexbox and Grid CSS, but my intention was to learn and use raw CSS for the first project at least so I would get a better insight into how it works.
+
+I would like to thank you for opportunity in reading my project and I look forward to the next challenges ahead...
+
+Greg
