@@ -428,6 +428,10 @@ footer {
     font-size: 2em;
   }
 
+  article.about p {
+    font-size: 1.5em;
+  }
+
   .gallery {
     column-count: 2;
   }
@@ -448,6 +452,13 @@ footer {
   }
 }
 
+@media screen and (min-width: 840px) {
+  /* breakpoint */
+  .services {
+    height: 430px;
+  }
+}
+
 @media screen and (min-width: 900px) {
   /* breakpoint */
   h2 {
@@ -463,6 +474,6 @@ footer {
   }
 
   .services {
-    height: 80vh;
+    height: 650px;
   }
 }
