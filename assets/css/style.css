@@ -400,7 +400,7 @@ footer {
   .testimonials {
     float: left;
     display: inline;
-    width: 30.73%;
+    width: 30%;
     height: 70vh;
     box-sizing: border-box;
     border: 2px solid #e8491d;
@@ -408,16 +408,20 @@ footer {
     margin: 1.3vw;
   }
 
+  #testimonial-left {
+    margin-left: 2.2vw;
+  }
+
   .testimonials img {
     width: calc(90px + 3vw);
   }
 
   .testimonials p {
-    font-size: 2vw;
+    font-size: 1.8vw;
   }
 
   .testimonials span {
-    font-size: 3vw;
+    font-size: 2.8vw;
   }
 
   div.about {
@@ -440,7 +444,7 @@ footer {
     float: left;
     display: inline;
     width: 30%;
-    height: 60vh;
+    height: 80vh;
     box-sizing: border-box;
     border: 2px solid #e8491d;
     background-color: #c8c8c8;
@@ -448,7 +452,7 @@ footer {
   }
 
   .services p {
-    font-size: 1.5vw;
+    font-size: 1.3vw;
   }
 }
 
