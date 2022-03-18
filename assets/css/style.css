@@ -245,7 +245,7 @@ header .menu .current a {
 }
 
 /* About Page */
-article.about {
+div.about {
   padding-top: 20px;
   float: left;
   text-align: justify;
@@ -420,15 +420,15 @@ footer {
     font-size: 3vw;
   }
 
-  article.about {
+  div.about {
     padding-bottom: 150px;
   }
 
-  article.about h2 {
+  div.about h2 {
     font-size: 2em;
   }
 
-  article.about p {
+  div.about p {
     font-size: 1.5em;
   }
 
