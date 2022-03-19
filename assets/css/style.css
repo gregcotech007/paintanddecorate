@@ -348,7 +348,7 @@ footer {
   padding: 5%;
   color: #3a3a3a;
   padding: 10px;
-  transition: transform 0.2%;
+  transition: transform .2%;
   margin: 0 auto;
 }
 

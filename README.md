@@ -166,9 +166,37 @@ The Footer is comprised of Social Network links of four providers. Once the user
 
 # Testing
 
-In order to test the website during the coding stage, Chrome web browser Dev Tools was used. It gives option to view the responisveness of the webpages on different size screen devices.
+- After deployment, all features were check on a MacBook Pro, iMac, iPhone 12Pro Max. The browsers used to test the website was Safari and Google Chrome. I have included the following screenshot examples from the iPhone and MacBook Pro devices.
 
-Also, using physical devices such as iPhone, iPad, MacBook Pro and iMac.
+## iPhone 12 Pro Max
+I tested all pages on the Safari browser and each page displayed correctly. A burger menu navigation was used on the smaller screen devices up to 780px, then the burger menu changes to the the full size navbar menu diplaying navigation links from left to right. The following examples are from the homepage.
+
+<img src="assets/images/testing/mob_hp_bm.webp" width="300px"/>
+<img src="assets/images/testing/mob_hp_testm.webp" width="300px"/>
+<img src="assets/images/testing/mob_hp_ftr.webp" width="300px"/>
+
+## MacBook Pro
+I tested all pages on the Safari browser and each page displayed correctly. A navbar menu is shown with links to each link. The selected page is highlighted in the organge colour to indicate the page that they are currently viewing.
+
+<img src="assets/images/testing/mbp_hp_navbar-min.webp" width="300px"/>
+<img src="assets/images/testing/mbp_hp_testm-min.webp" width="300px"/>
+<img src="assets/images/testing/mbp_hp_ftr-min.webp" width="300px"/>
+
+### Bug Testing
+During the testing phase, I found that there was an issue between the view results on the Dev Tools and Google Chrome, that caused the Testimonials to move out of position and display over the Newsletter Signup. This was not the case when viewed on the Google Chrome directly.
+This was as a result of the testimonials width set to 30.73%.
+As a fix, changes were made in the css file to reduce the testimonial width to 30%. Font-size was reduced from 2vw to 1.8vw. Testimonial span font-size was reduced from 3vw to 2.8vw.
+
+Title - Error with title was showing up twice in the head. Removed 2nd title, added additional line comments for explantion. Added additional line spaces for better viewing of code.
+
+article - Removed article from the About Us page that was causing an error and replaced it with a div.
+
+aria-placeholder - Removed aria-placeholder as it was causing an error on the form.
+
+Footer - Removed div from below the class social in the footer section, that was causing an error.
+
+Once errors had been fixed, I passed code through HTML & CSS Code Beautify and then I verified the code for each page through Nu HTML Checker and all passed with no errors or warnings.
+
 
 - [Am I Responsive](http://ami.responsivedesign.is/):
     - The website was used to show virtual environment on how the website would look like on multiple
@@ -178,12 +206,15 @@ Also, using physical devices such as iPhone, iPad, MacBook Pro and iMac.
 ## HTML Validation
 
 - [Nu Html Checker](https://validator.w3.org/nu/#textarea):
-    - The website was used validate HTML code for any arrors.
+    - The website was used validate HTML code for any errors.
+
+<img src="assets/images/testing/validate-html_passed.webp"/>
+
 
 ## CSS Validation
 
-- [Nu Html Checker](http://www.css-validator.org/#validate_by_input):
-    - The website was used validate CSS styling code for any arrors.
+- [CSS Validator](http://www.css-validator.org/#validate_by_input):
+    - The website was used validate CSS styling code for any errors. Unfortunately, the website presented server errors every time and I was unable to get a complete validation on this time around.
 
 
 ## Lighthouse Testing
@@ -205,6 +236,11 @@ For deployment of the website to a live publicly accessible website, the followi
 - Scroll down to 'GitHub Pages' and click on 'Check it out here!'
 - On the 'Source' section, select Branch as 'main' and click on 'Save'.
 - Your site is published at https://gregcotech007.github.io/paintanddecorate/
+
+Commands used to add, commit and push changes to GitHub:
+- git add . (Used to add all changes)
+- git commit -m "Commit message" (Commit message to inform of the changes)
+- git push (Used to push changes to GitHub).
 
 
 # Cloning
@@ -294,9 +330,7 @@ To clone a copy of the code in the repository, the following steps are required:
 - [Code Institute](https://codeinstitute.net)
     - The LMS tutorials were beneficial in giving me an insight into starting my first website coding project.
     - Also, I found inspiration from the 'Love Running' project which helped with ideas.
-
-- Code Institute: Mentor: Narender @github/nar3nd3r
-    - Thanks Narender for all the support and guidance throughout the project.
+    - Code Institute Mentor.
 
 
 # Conclusion
