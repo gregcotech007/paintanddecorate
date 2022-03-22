@@ -164,9 +164,33 @@ The Footer is comprised of Social Network links of four providers. Once the user
     - GitPod was used as the main Language Editor for programming the website.
 
 
-# Testing
+Testing section:
+code validation
+test cases
+supported screens and browsers
+fixed bugs
+# Testing Section
 
+## Code Validation
+
+## Supported Screens and Browsers
 - After deployment, all features were check on a MacBook Pro, iMac, iPhone 12Pro Max. The browsers used to test the website was Safari and Google Chrome. I have included the following screenshot examples from the iPhone and MacBook Pro devices.
+
+## Test Cases
+### Home Page
+Steps:
+Input
+Output
+
+Screenshot of page
+
+### About Us
+Input
+Click on 
+
+Output
+User will be directed to page
+
 
 ## iPhone 12 Pro Max
 I tested all pages on the Safari browser and each page displayed correctly. A burger menu navigation was used on the smaller screen devices up to 780px, then the burger menu changes to the the full size navbar menu diplaying navigation links from left to right. The following examples are from the homepage.
@@ -219,7 +243,7 @@ Once errors had been fixed, I passed code through HTML & CSS Code Beautify and t
 
 ## Lighthouse Testing
 
-#### Mobile
+### Mobile
 
 ![Lighthouse Mobile](assets/images/lighthouse-mobile-min.webp)
 
@@ -229,6 +253,10 @@ Once errors had been fixed, I passed code through HTML & CSS Code Beautify and t
 
 
 # Deployment
+## GitPod
+
+
+## GitHub
 For deployment of the website to a live publicly accessible website, the following steps were required:
 
 - Confirmed that correct repository is selected as 'paintanddecorate'
