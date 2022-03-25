@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins&display=swap");
+
 /* Set all defaults to zero */
 * {
   margin: 0;
@@ -124,20 +125,20 @@ header .menu .current a {
   display: none;
 }
 
-.header .menu-btn:checked ~ .menu {
+.header .menu-btn:checked~.menu {
   max-height: 240px;
 }
 
-.header .menu-btn:checked ~ .menu-icon .nav-icon {
+.header .menu-btn:checked~.menu-icon .nav-icon {
   background: transparent;
 }
 
-.header .menu-btn:checked ~ .menu-icon .nav-icon::before {
+.header .menu-btn:checked~.menu-icon .nav-icon::before {
   transform: rotate(-45deg);
   top: 0;
 }
 
-.header .menu-btn:checked ~ .menu-icon .nav-icon::after {
+.header .menu-btn:checked~.menu-icon .nav-icon::after {
   transform: rotate(45deg);
   top: 0;
 }
@@ -261,8 +262,10 @@ div.about {
   padding: 15px;
   background: #35424a;
   color: #fff;
-  margin-top: 10px;
+  margin-top: 100px;
   margin-bottom: 10px;
+  text-align: center;
+  height: 300px;
 }
 
 .contact-btn {
@@ -279,17 +282,8 @@ div.about {
   color: #e8491d;
 }
 
-aside.sidebar {
-  float: left;
-  width: 100%;
-}
-
-aside.sidebar h3 {
-  text-align: center;
-}
-
-aside.sidebar .contact input,
-aside.sidebar .contact textarea {
+.contact input,
+.contact textarea {
   width: 90%;
   padding: 5px;
 }
@@ -329,6 +323,19 @@ footer {
   color: #fff;
   background-color: #e8491d;
   text-align: center;
+  /* position: sticky; */
+  /* height: 100vh; */
+  /* left: 0;
+  bottom: 0; */
+  width: 100%;
+}
+html, body { 
+  height: 100%;
+}
+
+body > footer {
+  position: sticky;
+  top: 100vh;
 }
 
 .social {
@@ -348,18 +355,21 @@ footer {
   padding: 5%;
   color: #3a3a3a;
   padding: 10px;
-  transition: transform 0.2%;
+  transition: 0.2s;
   margin: 0 auto;
 }
 
 .social i:hover {
-  -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3 - 8 */
+  -ms-transform: scale(1.5);
+  /* IE 9 */
+  -webkit-transform: scale(1.5);
+  /* Safari 3 - 8 */
   transform: scale(1.5);
   color: #fff;
 }
 
 @media screen and (min-width: 768px) {
+
   /* breakpoint */
   .header {
     height: 60px;
@@ -457,6 +467,7 @@ footer {
 }
 
 @media screen and (min-width: 840px) {
+
   /* breakpoint */
   .services {
     height: 430px;
@@ -464,6 +475,7 @@ footer {
 }
 
 @media screen and (min-width: 900px) {
+
   /* breakpoint */
   h2 {
     font-size: 3em;
