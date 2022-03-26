@@ -188,7 +188,6 @@ header .menu .current a {
 }
 
 .testimonials::after {
-  /*clear float */
   content: "";
   display: table;
   clear: both;
@@ -310,7 +309,6 @@ div.about {
 }
 
 .services::after {
-  /*clear float */
   content: "";
   display: table;
   clear: both;
@@ -323,10 +321,6 @@ footer {
   color: #fff;
   background-color: #e8491d;
   text-align: center;
-  /* position: sticky; */
-  /* height: 100vh; */
-  /* left: 0;
-  bottom: 0; */
   width: 100%;
 }
 html, body { 
