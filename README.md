@@ -368,7 +368,7 @@ Steps:
 
 - Showcase Image
     - Updated showcase image to a higher quality image due to quality issues on larger screens
-    
+
 Once errors had been fixed, I passed code through HTML & CSS Code Beautify and then I verified the code for each page through Nu HTML Checker and all passed with no errors or warnings.
 
 
@@ -411,7 +411,10 @@ Starting out writing code, an code editor is required and in this case, I used G
 - Open web browser to view website on port 8000, enter the following command in the terminal
     - python3 -m html.server
 
-Commands used to add, commit and push changes to GitHub:
+### Version Control
+- Git was used as the version control software
+
+- Commands used to add, commit and push changes to GitHub:
 
 - Add all changes for commit
     - git add .
